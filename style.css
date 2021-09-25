@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@300&display=swap");
+
+:root {
+  --primary-color: #20b2aa;
+}
+
+* {
+  font-family: "Stick No Bills", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url(/images/tic-tac-toe-bg.gif);
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-size: 5.5rem;
+}
+
+.display {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 0rem;
+  margin-bottom: 1.5rem;
+  margin-left: 1rem;
+}
+
+.announcer {
+  margin-top: 3rem;
+  margin-bottom: 0.2rem;
+}
+
+.hide {
+  display: none;
+}
+
+.container {
+  margin: auto;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  max-width: 400px;
+  column-gap: 0.7rem;
+  row-gap: 0.7rem;
+}
+
+.tile {
+  background-color: black;
+  border: 1px solid white;
+  min-width: 130px;
+  min-height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+.tile:hover {
+  background-color: var(--primary-color);
+}
+
+.playerX {
+  color: #7cfc00;
+}
+
+.playerO {
+  color: #ba55d3;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+#reset {
+  background-color: var(--primary-color);
+  color: black;
+  padding: 0.7rem 2.5rem;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+}
+
+#reset:hover {
+  background-color: #191970;
+  color: white;
+}
