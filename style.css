@@ -30,8 +30,8 @@ body {
 }
 
 .announcer {
-  margin-top: 3rem;
-  margin-bottom: 0.2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .hide {
@@ -46,6 +46,7 @@ body {
   max-width: 400px;
   column-gap: 0.7rem;
   row-gap: 0.7rem;
+  margin-bottom: 2.5rem;
 }
 
 .tile {
@@ -67,10 +68,12 @@ body {
 
 .playerX {
   color: #7cfc00;
+  font-size: 2rem;
 }
 
 .playerO {
   color: #ba55d3;
+  font-size: 2rem;
 }
 
 .controls {
@@ -89,7 +92,6 @@ body {
   font-size: 1.5rem;
   font-weight: bolder;
   cursor: pointer;
-  margin-top: 1rem;
   margin-bottom: 1rem;
   margin-left: 1.5rem;
 }
